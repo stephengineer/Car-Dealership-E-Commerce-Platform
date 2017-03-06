@@ -61,8 +61,38 @@ public class CISCDApp {
 
                 case "compare":
                 case "Compare":
-                    int index1,
-                     index2;
+                    
+                    if (parts.length < 3) {
+                        System.out.println("Please entry 'compare' + 'car 1' + 'car 2'\n"
+                                + "To view a list of commands, enter Commands \n");
+                        break;
+                    }
+                    if (parts.length > 3) {
+                        System.out.println("Please compare two cars only\n"
+                                + "To view a list of commands, enter Commands \n");
+                        break;
+                    }
+
+                    if (!isInteger(parts[1]) || !isInteger(parts[2])) {
+                        System.out.println("Plean enter compare two numbers means two cars other than anything else\n"
+                                + "To view a list of commands, enter Commands \n");
+                        break;
+                    }
+
+                    int CheckNo1 = Integer.parseInt(parts[1]);
+                    int CheckNo2 = Integer.parseInt(parts[2]);
+                    if (CheckNo1 > dealership.getTotalCars() || CheckNo2 > dealership.getTotalCars() || CheckNo1 < 1 || CheckNo2 < 1) {
+                        System.out.println("Please compare cars from 1 to " + dealership.getTotalCars() + ", thank you.\n"
+                                + "To view a list of commands, enter Commands \n");
+                        break;
+                    }
+                    if(CheckNo1 == CheckNo2) {
+                        System.out.println("Please compare two different cars, thank you.\n"
+                                + "To view a list of commands, enter Commands \n");
+                        break;
+                    }
+                    
+                    int index1, index2;
                     index1 = Integer.parseInt(parts[1]);
                     index2 = Integer.parseInt(parts[2]);
                     String compare = dealership.Compare(index1, index2);
@@ -84,14 +114,14 @@ public class CISCDApp {
                     }
 
                     if (!isInteger(parts[1])) {
-                        System.out.println("Plean enter 'select' and one number other than anything else\n"
+                        System.out.println("Please enter 'select' and one number other than anything else\n"
                                 + "To view a list of commands, enter Commands \n");
                         break;
                     }
 
                     int CheckNo = Integer.parseInt(parts[1]);
-                    if (CheckNo > dealership.getTotalCars()) {
-                        System.out.println("Plean select 1 to " + dealership.getTotalCars() + ", thank you.\n"
+                    if (CheckNo > dealership.getTotalCars() || CheckNo < 1) {
+                        System.out.println("Please select 1 to " + dealership.getTotalCars() + ", thank you.\n"
                                 + "To view a list of commands, enter Commands \n");
                         break;
                     }
