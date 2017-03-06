@@ -1,0 +1,12 @@
+Red,1995,Honda,Accord,800,SUV,Gas,4,2400,200,20,true,false,false,false,Black,Black,Red,false,false,false,false,false
+Red,2008,Honda,Civic,9800,Sedan,Diesel,4,2400,165,35,true,false,false,false,black,black,black,false,false,true,false,false
+Black,2009,Bzen,GTS,13000,CrossOver,Gas,8,3500,440,20,true,false,false,false,Black,Gray,Black,false,false,true,true,false
+Blue,2014,Subaru,BRZ,21000,Truck,Diesel,4,2200,250,20,true,false,false,false,Black,Black,Black,false,false,true,true,true
+White,2008,Toyota,Camry,18000,Sedan,Electric,6,3600,240,20,true,false,false,false,Black,Black,Black,false,false,true,true,false
+Gray,2014,Bzen,C300,45000,SUV,Gas,4,2600,260,28,true,false,false,false,Black,Black,Red,false,false,true,true,true
+White,2011,Nissan,Versa,9800,Sedan,Gas,4,2000,155,39,true,false,false,false,Black,Black,Black,false,false,true,false,false
+Blue,2015,Toyota,Corola,18000,CrossOver,Hybrid,4,2350,170,32,true,false,false,false,Black,Black,Gray,false,false,false,true,true
+Gray,2012,Volkswagen,CC,21000,Sedan,Diesel,4,2700,200,28,true,true,true,true,Black,Black,Gray,true,true,true,true,true
+Red,2006,Hyundai,Sonata,2500,Sedan,gas,6,1000,325,22,true,true,true,true,grey,brown,creme,false,false,true,true,false
+Orange,2016,Infiniti,QX50,38000,suv,diesel,4,2000,250,25,false,true,true,true,brown,white,grey,false,false,false,true,true
+Yellow,2010,Toyota,Corolla,7845,Crossover,electric,8,3000,300,35,true,false,true,true,white,black,white,true,false,true,true,false

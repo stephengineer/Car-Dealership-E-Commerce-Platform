@@ -1,0 +1,11 @@
+Read the details of the inventory from a text file.
+
+The car inventory is stored in a text file in the following format. Each line in the file holds information about a single car. 
+You need to convert your current inventory to the following text format and load your cars from the text file.
+
+color,year,make,model,price,carType,fuelType,noOfCylinders,capacity,horsePower,mpg,hasSparetire,hasFirstAidKit,hasCarpet,hasjack,carpetColor,interiorColor1,interiorColor2,hasSunRoof,hasMoonRoof,navigation,sport,bluetooth
+
+Example:
+Red,2006,Hyundai,Sonata,2500,Sedan,gas,6,1000,325,22,true,true,true,true,grey,brown,creme,false,false,true,true,false
+Orange,2016,Infiniti,QX50,38000,suv,diesel,4,2000,250,25,false,true,true,true,brown,white,grey,false,false,false,true,true
+Yellow,2010,Toyota,Corolla,7845,Crossover,electric,8,3000,300,35,true,false,true,true,white,black,white,true,false,true,true,true
