@@ -8,7 +8,7 @@ To create a car dealership to address the needs of the department, faculty, and 
 
 ## Database
 
-The car inventory is stored in a text file as [database](./cars.txt) in the following format. Each line in the file holds information about a single car. Need to convert current inventory to the following text format and load cars from text file.
+The car inventory is stored in a text file as [databases](./cars.txt) in the following format. Each line in the file holds information about a single car. Need to convert current inventory to the following text format and load cars from text file.
 
 ### Format
 
